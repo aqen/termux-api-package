@@ -19,8 +19,8 @@ do
     case "$option" in
 	h) show_usage;;
 	i) PARAMS="$PARAMS ";;
-  a) PARAMS="$PARAMS ";;
-  v) PARAMS="$PARAMS ";;
+	a) PARAMS="$PARAMS ";;
+	v) PARAMS="$PARAMS ";;
 	f) PARAMS="$PARAMS --es documents $OPTARG";;
 	?) echo "$SCRIPTNAME: illegal option -$OPTARG"; exit 1;
     esac
